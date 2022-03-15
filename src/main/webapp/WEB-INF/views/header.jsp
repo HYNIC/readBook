@@ -1,9 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body> 
 <header>
 	<!-- 홈페이지 로고 -->
-	<div><a href="/">읽.쓰.말</a></div>
+	<div class="logo"><a href="/">읽.쓰.말</a></div>
 	
 	<!-- 게시판 nav -->
 	<nav>
@@ -15,7 +22,7 @@
 	</nav>
 	
 	<!-- 로그인/회원페이지 버튼 -->
-	<div>
+	<div class="to-login">
 		<a href="loginForm">log in</a>
 	</div>
 	

@@ -16,4 +16,9 @@ public class MyController {
 		return "loginForm";
 	}
 	
+	@RequestMapping("/joinForm")
+	public String joinForm() {
+		return "joinForm";
+	}
+	
 }

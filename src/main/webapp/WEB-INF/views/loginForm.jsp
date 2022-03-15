@@ -1,33 +1,34 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>로그인</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
-</head>
-<body>
-	<jsp:include page="header.jsp" />
-	
+
+<jsp:include page="header.jsp" />
+
+<div class="body-wrapper">
 	<div class="login-form">
-		<h3>Log-in</h3>
+		<h3>LOG-IN</h3>
+		
 		<form>
 			<div>
-				<label>ID</label>
+				<label>아이디</label>
 				<input type="text" name="id">
 			</div>
 			
 			<div>
-				<label>PW</label>
+				<label>비밀번호</label>
 				<input type="password" name="pw">
 			</div>
 			
-			<input type="submit" value="로그인">
+			<div>
+				<button>로그인하기</button>
+			</div>
+			
 		</form>
 		
+		<div class="to-join">
+			아직 계정이 없다면? <span><a href="joinForm">회원가입하러가기</a></span>
+		</div>
+		
 	</div>
-	
-	<jsp:include page="footer.jsp" />
-</body>
-</html>
+</div>
+
+<jsp:include page="footer.jsp" />
